@@ -277,7 +277,7 @@
                     lat: sensor[2],
                     lon: sensor[3],
                     pm25: adjustPM25(sensor[4], sensor[5]), // Adjust PM2.5 using the function
-                    rh: sensor[5],
+                    rh: sensor[4],
                 }));
             } catch (error) {
                 console.error('Error fetching PurpleAir data:', error);
